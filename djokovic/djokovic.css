@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: repeating-linear-gradient(to bottom, #c6363b 0px, #c6363b 33.33vh, #0c3c90 33.33vh, #0c3c90 66.66vh, #ffffff 66.66vh, #ffffff 100vh);
+}
+
+.main-grandslam {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  justify-content: center;
+  height: 1200px;
+  margin: 20px;
+}
+.main-grandslam .australian {
+  background-image: url("../imagestennis/novak-djokovic-australian.webp");
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  padding: 50px;
+  color: rgb(139, 165, 238);
+  font-size: 17px;
+  align-content: start;
+  text-align: right;
+}
+.main-grandslam .australian h1 {
+  margin: 10px;
+  color: rgb(139, 255, 6);
+}
+.main-grandslam .australian p {
+  margin: 10px;
+  color: rgb(139, 165, 238);
+}
+.main-grandslam .australian a {
+  text-decoration: none;
+  color: rgb(139, 165, 238);
+  font: 16px arial, sans-serif;
+}
+.main-grandslam .australian a:hover {
+  color: rgb(64, 255, 6);
+  opacity: 0.7;
+}
+.main-grandslam .roland {
+  background-image: url("../imagestennis/djokovic-roland.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  padding: 50px;
+  text-align: left;
+  color: rgb(139, 165, 238);
+  font-size: 17px;
+  align-content: center;
+  text-align: right;
+}
+.main-grandslam .roland h1 {
+  margin: 10px;
+  color: rgb(139, 255, 6);
+}
+.main-grandslam .roland p {
+  margin: 10px;
+  color: rgb(255, 253, 253);
+}
+.main-grandslam .roland a {
+  text-decoration: none;
+  color: rgb(139, 255, 6);
+  font: 16px arial, sans-serif;
+}
+.main-grandslam .roland a:hover {
+  color: rgb(143, 6, 255);
+  opacity: 0.7;
+}
+.main-grandslam .wimbledon {
+  background-image: url("../imagestennis/djokovicwimbledon.avif");
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  padding: 50px;
+  color: rgb(139, 165, 238);
+  font-size: 17px;
+  align-content: start;
+  text-align: left;
+}
+.main-grandslam .wimbledon h1 {
+  margin: 10px;
+  color: rgb(139, 255, 6);
+}
+.main-grandslam .wimbledon p {
+  margin: 10px;
+  color: rgb(255, 253, 253);
+}
+.main-grandslam .wimbledon a {
+  text-decoration: none;
+  color: rgb(139, 165, 238);
+  font: 16px arial, sans-serif;
+}
+.main-grandslam .wimbledon a:hover {
+  color: rgb(143, 6, 255);
+  opacity: 0.2;
+}
+.main-grandslam .usopen {
+  background-image: url("../imagestennis/djokvicusopen.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  padding: 50px;
+  text-align: left;
+  color: rgb(139, 165, 238);
+  font-size: 17px;
+  align-content: start;
+}
+.main-grandslam .usopen h1 {
+  margin: 10px;
+  color: rgb(139, 255, 6);
+}
+.main-grandslam .usopen p {
+  margin: 10px;
+  color: red;
+}
+.main-grandslam .usopen a {
+  text-decoration: none;
+  color: rgb(139, 255, 6);
+  font: 16px arial, sans-serif;
+}
+.main-grandslam .usopen a:hover {
+  color: rgb(143, 6, 255);
+  opacity: 0.7;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #c6363b; /* Rojo */
+  color: white;
+  width: 100%;
+  margin-top: 40px;
+}
+
+@media (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+  .main-grandslam {
+    grid-template-columns: 1fr;
+    padding: 5px;
+    gap: 10px;
+    margin: 5px;
+    max-width: 100vw;
+  }
+  .main-grandslam > div {
+    padding: 15px;
+    font-size: 14px;
+    max-width: 98vw;
+  }
+}/*# sourceMappingURL=djokovic.css.map */
